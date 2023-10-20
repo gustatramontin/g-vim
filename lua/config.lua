@@ -18,3 +18,8 @@ o.smartcase = true
 
 map('i', '<C- >', '<Esc>')
 map('t', '<C-x>', '<C-\\><C-n>')
+
+map('i', '<A-j>', '<Esc>lji')
+map('i', '<A-k>', '<Esc>lki')
+map('i', '<A-l>', '<Esc>lli')
+map('i', '<A-h>', '<Esc>lhi')
