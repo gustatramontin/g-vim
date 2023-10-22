@@ -1,4 +1,4 @@
-vim.cmd("colorscheme catppuccin")
+vim.cmd("colorscheme rose-pine")
 
 local o = vim.opt
 local map = vim.keymap.set
