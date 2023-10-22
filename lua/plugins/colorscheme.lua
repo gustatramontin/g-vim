@@ -1,4 +1,4 @@
 
 return {
-	{ "catppuccin/nvim", name="catppuccin", opts={ transparent_background=true }, }
+	{ "catppuccin/nvim", name="catppuccin", opts={ flavour="latte", transparent_background=false }, }
 }
