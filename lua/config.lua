@@ -8,6 +8,8 @@ o.cursorline = true
 o.splitbelow = false
 o.splitright= true
 
+o.swapfile = false
+
 vim.schedule(function()
 	o.clipboard = "unnamedplus"
 	o.undofile = true
@@ -15,6 +17,9 @@ end)
 
 o.ignorecase = true
 o.smartcase = true
+o.lazyredraw = false
+
+o.termguicolors = true
 
 map('i', '<C- >', '<Esc>')
 map('t', '<C-x>', '<C-\\><C-n>')
