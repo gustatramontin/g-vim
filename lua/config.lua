@@ -28,3 +28,6 @@ map('i', '<A-j>', '<Esc>lji')
 map('i', '<A-k>', '<Esc>lki')
 map('i', '<A-l>', '<Esc>lli')
 map('i', '<A-h>', '<Esc>lhi')
+
+map('n', '<Tab>', 'gt')
+map('n', '<S-Tab>', 'gT')
